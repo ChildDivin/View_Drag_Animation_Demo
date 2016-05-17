@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VpD-J3-pqb"/>
+                        <viewControllerLayoutGuide type="bottom" id="hcm-9L-Rkf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3ub-0h-udJ">
+                                <rect key="frame" x="93" y="200" width="141" height="140"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="03.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6xd-Bz-SKc">
+                                        <rect key="frame" x="0.0" y="0.0" width="141" height="147"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1960784495" green="0.90196084980000002" blue="0.76862752440000004" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jbg-t0-XWX">
+                                <rect key="frame" x="20" y="33" width="133" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="01.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="S0Z-Ef-z45">
+                                        <rect key="frame" x="0.0" y="0.0" width="133" height="128"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.94197650550000001" blue="0.08235294118" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qSE-eg-BIn">
+                                <rect key="frame" x="181" y="33" width="119" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8Km-FJ-4w7">
+                                        <rect key="frame" x="0.0" y="0.0" width="119" height="128"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.16862745579999999" green="0.76862752440000004" blue="0.93725496529999996" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="srk-Xn-cDn">
+                                <rect key="frame" x="223" y="360" width="87" height="76"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="01.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="AN9-h9-Cov">
+                                        <rect key="frame" x="0.0" y="0.0" width="87" height="76"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AMo-Ml-aYu">
+                                <rect key="frame" x="20" y="360" width="87" height="76"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="04.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bs7-fA-Ejb">
+                                        <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.97254908080000002" green="0.34117648010000001" blue="0.37647062539999998" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9ZY-4G-XIf">
+                                <rect key="frame" x="126" y="395" width="87" height="76"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="06.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ooA-Qg-rYu">
+                                        <rect key="frame" x="0.0" y="0.0" width="87" height="76"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.66274511810000003" blue="0.22745099660000001" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="view1" destination="3ub-0h-udJ" id="Eox-cb-Cif"/>
+                        <outlet property="view2" destination="AMo-Ml-aYu" id="yB9-10-rSx"/>
+                        <outlet property="view3" destination="jbg-t0-XWX" id="ouD-ME-bMC"/>
+                        <outlet property="view4" destination="qSE-eg-BIn" id="QkY-DM-SoK"/>
+                        <outlet property="view5" destination="9ZY-4G-XIf" id="8Uw-9b-faL"/>
+                        <outlet property="view6" destination="srk-Xn-cDn" id="MTl-BH-sAF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="38" y="-295"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="EPA-aW-lSS">
+            <objects>
+                <viewController id="wfl-Lw-6x8" customClass="ViewController2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Mf3-Jh-yMf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mod-Kv-6Ja"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iHX-4O-DHG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dCi-PZ-JOA">
+                                <rect key="frame" x="34" y="447" width="252" height="11"/>
+                                <color key="backgroundColor" red="0.97254908080000002" green="0.34117648010000001" blue="0.37647062539999998" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wjb-SB-ktp">
+                                <rect key="frame" x="55" y="219" width="192" height="147"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZRZ-sE-InW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="381" y="-276"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="01.jpg" width="2677" height="1567"/>
+        <image name="02.jpg" width="1150" height="756"/>
+        <image name="03.jpg" width="634" height="419"/>
+        <image name="04.jpg" width="3872" height="2592"/>
+        <image name="06.jpg" width="2000" height="1333"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
